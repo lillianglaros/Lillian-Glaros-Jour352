@@ -1,0 +1,29 @@
+/*
+MY COLOR PALETTE
+Color 1 - #93B7BE
+Color 2 - #272D2D
+Color 3 - #B796AC
+Color 4 - #902923
+Color 5 - #E39695
+*/
+.background{
+    background-color: #272D2D;
+}
+.button{
+    background-color: #B796AC;
+    color: #272D2D; 
+
+}
+button:hover{
+    background-color: #902923;
+}
+.h1{
+    color: #93B7BE;
+}
+.h2{
+    color: #93B7BE;
+}
+
+.h1{
+    font-family: Manrope;
+}
