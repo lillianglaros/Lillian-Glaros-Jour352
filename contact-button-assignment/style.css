@@ -6,24 +6,35 @@ Color 3 - #B796AC
 Color 4 - #902923
 Color 5 - #E39695
 */
-.background{
-    background-color: #272D2D;
+.background {
+    background-color: #272d2d;
+    text-align-last: center;
 }
-.button{
-    background-color: #B796AC;
-    color: #272D2D; 
-
+.button {
+    background-color: #b796ac;
+    color: #272d2d;
+    font-family: Fredoka;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+    border-style: none;
+    border-radius: 10px;
 }
-button:hover{
-    background-color: #902923;
+button:hover {
+    background-color: #93b7be;
 }
-.h1{
-    color: #93B7BE;
+.h1 {
+    color: #93b7be;
+    font-family: Fredoka;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
-.h2{
-    color: #93B7BE;
-}
-
-.h1{
-    font-family: Manrope;
+.h2 {
+    color: #93b7be;
+    font-family: Fredoka;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 23px;
 }
