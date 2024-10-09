@@ -22,63 +22,89 @@
     </head>
 
     <body>
-        <div class="container-fluid" id="topper">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 id="name">Lillian Glaros</h1>
-                    <h2 id="journalist">Journalist</h2>
-                    <button class="button">Contact</button>
+        <div class="site">
+            <div class="container-fluid" id="topper">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 id="name">Lillian Glaros</h1>
+                        <h2 id="journalist">Journalist</h2>
+                        <button class="button">Contact</button>
+                    </div>
+                    <div class="col-sm-6">
+                        <img
+                            src="LillianGlarosPhotoPortfolio.jpg"
+                            alt="Lillian Glaros Headshot"
+                            height="300px"
+                            id="headshot" />
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <img
-                        src="LillianGlarosPhotoPortfolio.jpg"
-                        alt="Lillian Glaros Headshot"
-                        height="300px"
-                        class="headshot" />
+            </div>
+            <div class="container-fluid" id="navigation">
+                <div class="row">
+                    <div class="col-4">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="col-4">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="col-4">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+            </div>
 
-                    <ul class="nav">
-                        <li>Experience</li>
-                        <li>Skills</li>
-                        <li>Education</li>
-                    </ul>
+            <div class="container-fluid" id="sectionA">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="page">Experience</h1>
+                    </div>
                 </div>
-                <div>
-                    <h1 class="page">Experience</h1>
-                    <h2 class="position">Freelance Writer</h2>
-                    <h3 class="detail"><em>College Park Here & Now</em></h3>
-                    <h3 class="detail">March 2024-Present</h3>
-                    <p class="des">
-                        I write articles about the College Park Area for a local monthly newspaper. Some of the articles
-                        I have written include a story on College Park’s celebration of the National Night Out, and a
-                        story on the College Park Youth Orchestra.
-                    </p>
-                    <h2 class="position">Marketing & Communications Intern</h2>
-                    <h3 class="detail"><em>American College of Cardiology</em></h3>
-                    <h3 class="detail">Summer 2024</h3>
-                    <p class="des">
-                        I wrote short blurbs, social media posts, and press releases, and translated social media posts
-                        into Spanish for a national cardiology organization focused on heart health and cardiologist
-                        education.
-                    </p>
-                    <h2 class="position">Staff Writer</h2>
-                    <h3 class="detail"><em>The Diamondback</em></h3>
-                    <h3 class="detail">May 2023-Present</h3>
-                    <p class="des">
-                        I write articles on Prince George’s County, primarily focusing on the county council and school
-                        board, for The Diamondback, a student newspaper at UMD, pitching two stories a week. I
-                        previously covered UMD’s Student Government Association, writing stories on their weekly
-                        meetings and various bills.
-                    </p>
-                    <h2 class="position">Researcher and Interviewer</h2>
-                    <h3 class="detail"><em>GirlsLEAD</em></h3>
-                    <h3 class="detail">2021</h3>
-                    <p class="des">
-                        I co-founded a podcast focusing on women’s history and interviewed women on a variety of topics
-                        including transphobia and colorism.
-                    </p>
+
+                <hr class="line" />
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2 class="position">Freelance Writer</h2>
+                        <h3 class="detail"><em>College Park Here & Now</em></h3>
+                        <h3 class="detail">March 2024-Present</h3>
+                        <br />
+                        <h2 class="position">Marketing & Communications Intern</h2>
+                        <h3 class="detail"><em>American College of Cardiology</em></h3>
+                        <h3 class="detail">Summer 2024</h3>
+                        <br />
+                        <h2 class="position">Staff Writer</h2>
+                        <h3 class="detail"><em>The Diamondback</em></h3>
+                        <h3 class="detail">May 2023-Present</h3>
+                        <br />
+                        <h2 class="position">Researcher and Interviewer</h2>
+                        <h3 class="detail"><em>GirlsLEAD</em></h3>
+                        <h3 class="detail">2021</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="des">
+                            I write articles about the College Park Area for a local monthly newspaper. Some of the
+                            articles I have written include a story on College Park’s celebration of the National Night
+                            Out, and a story on the College Park Youth Orchestra.
+                        </p>
+                        <p class="des">
+                            I wrote short blurbs, social media posts, and press releases, and translated social media
+                            posts into Spanish for a national cardiology organization focused on heart health and
+                            cardiologist education.
+                        </p>
+                        <p class="des">
+                            I write articles on Prince George’s County, primarily focusing on the county council and
+                            school board, for The Diamondback, a student newspaper at UMD, pitching two stories a week.
+                            I previously covered UMD’s Student Government Association, writing stories on their weekly
+                            meetings and various bills.
+                        </p>
+                        <p class="des">
+                            I co-founded a podcast focusing on women’s history and interviewed women on a variety of
+                            topics including transphobia and colorism.
+                        </p>
+                    </div>
                 </div>
                 <div>
                     <h1 class="page">Skills</h1>
+                    <hr class="line" />
                     <ul id="list">
                         <li>Child and Adult First Aid</li>
                         <li>Excel</li>
@@ -91,10 +117,12 @@
                 </div>
                 <div>
                     <h1 class="page">Education</h1>
+                    <hr class="line" />
                     <h2 class="edu" id="degree">Bachelor of Arts, Journalism & Spanish</h2>
                     <h3 class="edu" id="pl"><em>University of Maryland, College Park</em></h3>
                     <h3 class="edu" id="gy">2027</h3>
                 </div>
+                <p id="cr">Lillian Glaros, Copyright 2024</p>
             </div>
         </div>
     </body>
