@@ -1,10 +1,8 @@
 #headshot {
     border-radius: 50%;
-    margin: 10px;
-    height: 400px;
-}
-#topper {
-    background-color: #ccb9ab;
+    margin: 40px 20px 0 20px;
+    height: 550px;
+    padding: 10px 10px 0 10px;
 }
 #name {
     font-size: 63px;
@@ -12,6 +10,8 @@
     font-weight: bold;
     color: #463b31;
     padding: 10px;
+    margin-top: 150px;
+    margin-left: 160px;
 }
 #journalist {
     font-size: 36px;
@@ -19,6 +19,9 @@
     font-weight: normal;
     color: #463b31;
     padding: 10px, 5px;
+    padding-left: 15px;
+    margin-bottom: 100px;
+    margin-left: 160px;
 }
 .button {
     font-size: 35px;
@@ -32,18 +35,25 @@
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 15px;
     text-align: center;
+    margin-left: 30px;
 }
 #navigation {
     background-color: #ba9a47;
+    color: #463b31;
     font-size: 22px;
-    font-family: Montserrat;
-    font-weight: normal;
     text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
     padding: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
+    text-decoration: none;
+}
+a:hover {
+    font-family: Montserrat;
+    color: #ccb9ab;
+    text-decoration: none;
 }
 .page {
     font-size: 48px;
@@ -72,16 +82,11 @@
 #list {
     font-family: Montserrat;
     font-weight: normal;
-    color: #463b31;
+    color: #9f6f5d;
     font-size: 22.8px;
 }
 .edu {
     font-family: Montserrat;
-    background-color: #9f6f5d;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 15px;
-    padding-right: 15px;
     text-align: center;
 }
 #degree {
@@ -89,21 +94,24 @@
     color: #ccb9ab;
     margin-bottom: 0;
     padding-top: 15px;
+    font-weight: bold;
 }
 #pl {
-    color: #463b31;
+    color: #ccb9ab;
     font-size: 28.4px;
     margin-bottom: 0;
 }
 #gy {
-    color: #463b31;
+    color: #ccb9ab;
     font-size: 28.4px;
     padding-bottom: 15px;
 }
 #cr {
     font-size: 14px;
-    background-color: #ba9a47;
+    background-color: #9f6f5d;
+    color: #ccb9ab;
     font-family: Montserrat;
+    margin-top: 15px;
 }
 .line {
     color: #ba9a47;
@@ -111,4 +119,17 @@
 }
 .site {
     background-color: #ccb9ab;
+}
+
+#deg {
+    background-color: #9f6f5d;
+}
+#edutitle {
+    color: #ccb9ab;
+    border-bottom: solid;
+    border-color: #ba9a47;
+    font-weight: bolder;
+}
+#skill {
+    background-color: #463b31;
 }
