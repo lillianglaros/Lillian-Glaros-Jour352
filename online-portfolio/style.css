@@ -47,7 +47,6 @@
     font-weight: bold;
     padding: 10px;
     margin-top: 50px;
-    margin-bottom: 50px;
     text-decoration: none;
 }
 a:hover {
@@ -55,37 +54,34 @@ a:hover {
     color: #ccb9ab;
     text-decoration: none;
 }
-.page {
-    font-size: 48px;
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #9f6f5d;
-}
+
 .position {
     font-size: 22.8px;
     font-family: Montserrat;
     font-weight: bold;
-    color: #9f6f5d;
+    color: #ccb9ab;
 }
 .detail {
     font-size: 18.7px;
     font-family: Montserrat;
     font-weight: normal;
-    color: #463b31;
+    color: #ccb9ab;
 }
 .des {
     font-family: Montserrat;
     font-weight: normal;
-    color: #463b31;
+    color: #ccb9ab;
     font-size: 14.5px;
 }
-#list {
+.list {
     font-family: Montserrat;
     font-weight: normal;
-    color: #9f6f5d;
+    color: #ccb9ab;
     font-size: 22.8px;
+    margin: 15px;
+    padding: 15px;
 }
-.edu {
+.title3 {
     font-family: Montserrat;
     text-align: center;
 }
@@ -96,15 +92,10 @@ a:hover {
     padding-top: 15px;
     font-weight: bold;
 }
-#pl {
+
+.gradyear {
     color: #ccb9ab;
     font-size: 28.4px;
-    margin-bottom: 0;
-}
-#gy {
-    color: #ccb9ab;
-    font-size: 28.4px;
-    padding-bottom: 15px;
 }
 #cr {
     font-size: 14px;
@@ -117,19 +108,25 @@ a:hover {
     color: #ba9a47;
     height: 5px;
 }
-.site {
+.topper {
     background-color: #ccb9ab;
 }
 
 #deg {
     background-color: #9f6f5d;
 }
-#edutitle {
+.onetwothree {
     color: #ccb9ab;
     border-bottom: solid;
     border-color: #ba9a47;
     font-weight: bolder;
+    font-size: 48px;
+    font-family: Montserrat;
+    margin: 10px 0 10px 10px;
 }
 #skill {
-    background-color: #463b31;
+    background-color: #9f6f5d;
+}
+#sectionone {
+    background-color: #9f6f5d;
 }
