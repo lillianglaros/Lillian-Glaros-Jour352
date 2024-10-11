@@ -60,18 +60,21 @@ a:hover {
     font-family: Montserrat;
     font-weight: bold;
     color: #ccb9ab;
+    margin-left: 10px;
 }
 .detail {
     font-size: 18.7px;
     font-family: Montserrat;
     font-weight: normal;
     color: #ccb9ab;
+    margin-left: 15px;
 }
 .des {
     font-family: Montserrat;
     font-weight: normal;
     color: #ccb9ab;
-    font-size: 14.5px;
+    font-size: 16px;
+    margin: 10px;
 }
 .list {
     font-family: Montserrat;
