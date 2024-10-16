@@ -1,111 +1,104 @@
+.site {
+    font-family: Montserrat;
+}
 #headshot {
     border-radius: 50%;
     margin: 40px 20px 0 20px;
     height: 550px;
     padding: 10px 10px 0 10px;
 }
+
 #name {
     font-size: 63px;
-    font-family: Montserrat;
     font-weight: bold;
     color: #463b31;
     padding: 10px;
-    margin-top: 150px;
-    margin-left: 160px;
+    margin: 150px 0 0 160px;
 }
 #journalist {
     font-size: 36px;
-    font-family: Montserrat;
     font-weight: normal;
     color: #463b31;
-    padding: 10px, 5px;
-    padding-left: 15px;
-    margin-bottom: 100px;
-    margin-left: 160px;
+    padding: 10px 5px 0 15px;
+    margin: 0 0 100px 160px;
 }
 .button {
     font-size: 35px;
-    font-family: Montserrat;
     font-weight: bold;
     color: #463b31;
     background-color: #9f6f5d;
     border-style: none;
     border-radius: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 50px 10px 50px;
     text-align: center;
-    margin-left: 30px;
+    margin: 300px;
+    text-decoration: none;
 }
 #navigation {
     background-color: #ba9a47;
     color: #463b31;
     font-size: 22px;
     text-align: center;
-    font-family: Montserrat;
     font-weight: bold;
     padding: 10px;
     margin-top: 50px;
-    text-decoration: none;
 }
 a:hover {
-    font-family: Montserrat;
     color: #ccb9ab;
     text-decoration: none;
 }
 
+.sections {
+    color: #463b31;
+    text-decoration: none;
+}
 .position {
     font-size: 22.8px;
-    font-family: Montserrat;
     font-weight: bold;
     color: #ccb9ab;
     margin-left: 10px;
 }
 .detail {
     font-size: 18.7px;
-    font-family: Montserrat;
     font-weight: normal;
     color: #ccb9ab;
     margin-left: 15px;
 }
 .des {
-    font-family: Montserrat;
     font-weight: normal;
     color: #ccb9ab;
     font-size: 16px;
     margin: 10px;
 }
 .list {
-    font-family: Montserrat;
     font-weight: normal;
     color: #ccb9ab;
     font-size: 22.8px;
-    margin: 15px;
-    padding: 15px;
+    margin-left: 15px;
+    padding-left: 15px;
+    margin-bottom: 0;
 }
 .title3 {
-    font-family: Montserrat;
     text-align: center;
 }
 #degree {
     font-size: 37.4px;
     color: #ccb9ab;
-    margin-bottom: 0;
-    padding-top: 15px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .gradyear {
     color: #ccb9ab;
     font-size: 28.4px;
+    margin: 15px;
 }
 #cr {
     font-size: 14px;
     background-color: #9f6f5d;
     color: #ccb9ab;
-    font-family: Montserrat;
     margin-top: 15px;
+    margin-left: 10px;
 }
 .line {
     color: #ba9a47;
@@ -124,7 +117,6 @@ a:hover {
     border-color: #ba9a47;
     font-weight: bolder;
     font-size: 48px;
-    font-family: Montserrat;
     margin: 10px 0 10px 10px;
 }
 #skill {
@@ -132,4 +124,56 @@ a:hover {
 }
 #sectionone {
     background-color: #9f6f5d;
+}
+
+@media (max-width: 768px) {
+    #name {
+        font-size: 44px;
+        padding: 5px;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    #journalist {
+        font-size: 27px;
+        padding: 10px, 5px;
+        padding-left: 7.5px;
+        margin-bottom: 50px;
+        margin-left: 80px;
+    }
+    .button {
+        font-size: 26px;
+        justify-content: center;
+    }
+    #headshot {
+        height: 350px;
+        display: block;
+        margin: auto;
+        padding: 40px;
+    }
+}
+@media (max-width: 1200px) {
+    #name {
+        font-size: 48px;
+        padding: 5px;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    #journalist {
+        font-size: 27px;
+        padding: 10px, 5px;
+        padding-left: 7.5px;
+        margin-bottom: 50px;
+        margin-left: 80px;
+    }
+    .button {
+        font-size: 26px;
+        margin-top: 15px;
+        margin: 150px;
+    }
+    #headshot {
+        height: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 45px;
+    }
 }
