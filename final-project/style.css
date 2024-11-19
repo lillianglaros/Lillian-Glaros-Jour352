@@ -1,0 +1,84 @@
+img {
+    width: 100%;
+}
+#topper {
+    background-image: url(image.png);
+    background-size: cover;
+    height: 960px;
+}
+#headline {
+    margin: 300px 200px 300px 30px;
+    font-family: Playfair;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #3e5752;
+}
+#lede {
+    background-color: #3e5752;
+    color: #c2cee0;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#data {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#data2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h3 {
+    margin: 50px;
+}
+#kid1 {
+    background-image: url(Screenshot%202024-11-18%20185414.png);
+    background-size: cover;
+    height: 960px;
+}
+#name1 {
+    margin: 500px 200px 300px 140px;
+    font-family: Playfair;
+    font-weight: bolder;
+    font-size: 56px;
+    color: #c2cee0;
+}
+#kid2 {
+    background-image: url(Screenshot%202024-11-18%20194505.png);
+    background-size: cover;
+    height: 960px;
+}
+#name2 {
+    font-family: Playfair;
+    font-weight: bolder;
+    font-size: 56px;
+    color: #c2cee0;
+    text-align-last: center;
+}
+#kid3 {
+    background-image: url(imrs.jpg);
+    background-size: cover;
+    height: 960px;
+}
+#name3 {
+    font-family: Playfair;
+    font-weight: bolder;
+    font-size: 56px;
+    color: #c2cee0;
+    text-align-last: center;
+}
+#kid4 {
+    background-image: url(image%202.png);
+    background-size: cover;
+    height: 960px;
+}
+#name4 {
+    margin: 400px 200px 300px 900px;
+    font-family: Playfair;
+    font-weight: bolder;
+    font-size: 80px;
+    color: #c2cee0;
+}
