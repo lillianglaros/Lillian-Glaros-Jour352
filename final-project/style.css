@@ -1,84 +1,183 @@
-img {
-    width: 100%;
+@media {
+    img {
+        width: 100%;
+    }
+    #topper {
+        background-image: url(image.png);
+        background-size: cover;
+        height: 500px;
+        background-position-x: right;
+    }
+    #headline {
+        margin: 30px 10px 30px 200px;
+        font-family: Playfair;
+        font-weight: bolder;
+        font-size: 30px;
+        color: #3e5752;
+    }
+    #lede {
+        background-color: #3e5752;
+        color: #c2cee0;
+        font-family: sans-serif;
+        font-size: 19px;
+        width: 60%;
+    }
+    .content {
+        width: 100%;
+        color: #c2cee0;
+        font-family: sans-serif;
+        font-size: 19px;
+    }
+    body {
+        background-color: #3e5752;
+    }
+
+    h3 {
+        margin: 50px;
+        font-style: italic;
+    }
+    #kid1 {
+        background-image: url(Screenshot%202024-11-18%20185414.png);
+        background-size: cover;
+        height: 500px;
+        background-position-x: center;
+    }
+    #name1 {
+        text-align: center;
+        font-family: Playfair;
+        font-weight: bolder;
+        font-size: 56px;
+        color: #c2cee0;
+    }
+    #kid2 {
+        background-image: url(amaro.png);
+        background-size: cover;
+        height: 500px;
+        background-position-x: center;
+    }
+    #name2 {
+        font-family: Playfair;
+        font-weight: bolder;
+        font-size: 56px;
+        color: #c2cee0;
+        text-align: center;
+    }
+    #kid3 {
+        background-image: url(imrs.jpg);
+        background-size: cover;
+        height: 500px;
+        background-position-x: center;
+    }
+    #name3 {
+        font-family: Playfair;
+        font-weight: bolder;
+        font-size: 56px;
+        color: #c2cee0;
+        text-align: center;
+    }
+    #kid4 {
+        background-image: url(image%202.png);
+        background-size: cover;
+        height: 500px;
+        background-position-x: center;
+    }
+    #name4 {
+        font-family: Playfair;
+        font-weight: bolder;
+        font-size: 56px;
+        color: #c2cee0;
+        text-align: center;
+    }
+    .byline {
+        font-size: 14px;
+        margin-top: 10px;
+        color: #c2cee0;
+        text-decoration: none;
+    }
+    .a:hover {
+        color: #c2cee0;
+    }
+    .caption {
+        font-size: 16px;
+        font-family: sans-serif;
+        color: #c2cee0;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .pullquote {
+        color: #c2cee0;
+        font-size: 30px;
+        border-left-style: solid;
+        border-left-color: #c2cee0;
+        border-left-width: thick;
+    }
+    .quote {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 0;
+        font-family: Playfair;
+        font-weight: bold;
+    }
+    .attribution {
+        font-family: Playfair;
+        font-weight: bold;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .quotemark {
+        font-size: 75px;
+        float: left;
+        line-height: 0.7;
+    }
+    #credit {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
-#topper {
-    background-image: url(image.png);
-    background-size: cover;
-    height: 960px;
+@media (min-width: 576px) {
+    #headline {
+        margin: 10% 5% 10% 40%;
+        font-size: 35px;
+    }
+    .content {
+        width: 80%;
+    }
+    #kid1 {
+        background-image: url(Screenshot%202024-11-18%20185414.png);
+        background-size: cover;
+        height: 960px;
+    }
+    #kid2 {
+        background-image: url(amaro.png);
+        background-size: cover;
+        height: 960px;
+    }
+    #kid3 {
+        background-image: url(imrs.jpg);
+        background-size: cover;
+        height: 960px;
+    }
+    #kid4 {
+        background-image: url(image%202.png);
+        background-size: cover;
+        height: 960px;
+    }
+    #topper {
+        background-image: url(image.png);
+        background-size: cover;
+        height: 960px;
+    }
 }
-#headline {
-    margin: 300px 200px 300px 30px;
-    font-family: Playfair;
-    font-weight: bolder;
-    font-size: 40px;
-    color: #3e5752;
-}
-#lede {
-    background-color: #3e5752;
-    color: #c2cee0;
-    font-family: sans-serif;
-    font-size: 19px;
-}
-p {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-#data {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-#data2 {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-h3 {
-    margin: 50px;
-}
-#kid1 {
-    background-image: url(Screenshot%202024-11-18%20185414.png);
-    background-size: cover;
-    height: 960px;
-}
-#name1 {
-    margin: 500px 200px 300px 140px;
-    font-family: Playfair;
-    font-weight: bolder;
-    font-size: 56px;
-    color: #c2cee0;
-}
-#kid2 {
-    background-image: url(Screenshot%202024-11-18%20194505.png);
-    background-size: cover;
-    height: 960px;
-}
-#name2 {
-    font-family: Playfair;
-    font-weight: bolder;
-    font-size: 56px;
-    color: #c2cee0;
-    text-align-last: center;
-}
-#kid3 {
-    background-image: url(imrs.jpg);
-    background-size: cover;
-    height: 960px;
-}
-#name3 {
-    font-family: Playfair;
-    font-weight: bolder;
-    font-size: 56px;
-    color: #c2cee0;
-    text-align-last: center;
-}
-#kid4 {
-    background-image: url(image%202.png);
-    background-size: cover;
-    height: 960px;
-}
-#name4 {
-    margin: 400px 200px 300px 900px;
-    font-family: Playfair;
-    font-weight: bolder;
-    font-size: 80px;
-    color: #c2cee0;
+@media (min-width: 991px) {
+    #headline {
+        margin: 10% 5% 10% 60%;
+        font-size: 45px;
+    }
+    .content {
+        width: 60%;
+    }
 }
