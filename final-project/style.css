@@ -137,6 +137,9 @@
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    a {
+        color: #c2cee0;
+    }
 }
 @media (min-width: 576px) {
     #headline {
